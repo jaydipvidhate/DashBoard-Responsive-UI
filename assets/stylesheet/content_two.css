@@ -1,0 +1,127 @@
+.content .content_second {
+  width: 44%;
+  margin-top: 40px;
+}
+
+.content .content_second .notification {
+  justify-content: space-between;
+}
+
+.content .content_second .notification .search {
+  flex: 1;
+
+  margin-right: 20px;
+
+  position: relative;
+}
+.content .content_second .notification .search i {
+  z-index: 100;
+  padding: 14px 20px;
+  position: absolute;
+  font-size: 20px;
+  opacity: 0.5;
+}
+.content .content_second .notification .search input {
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 12px 20px;
+  padding-left: 56px;
+  border: none;
+  font-size: 20px;
+  color: black;
+}
+.content .content_second .notification .notification_detials {
+  width: 18%;
+  justify-content: space-around;
+}
+
+.content .content_second .notification .notification_detials i {
+  font-size: 24px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.content .content_second .course_completion {
+  width: 100%;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.content .content_second .course_completion .course_completion_card {
+  width: 46%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.content .content_second .course_completion .course_completion_card span {
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.content .content_second .chart_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .content_second .chart_title ul li a {
+  color: black;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.content .content_second .chart_title ul li a.selected {
+  color: black;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.content .content_second .chart_title select {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.content .content_second .chart {
+  width: 100%;
+}
+
+.content .content_second .chart img {
+  width: 100%;
+  height: 100%;
+}
+
+.content .content_second .learn_more {
+  padding: 30px 20px;
+}
+
+.content .content_second .learn_more_content h6 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.content .content_second .learn_more_content p {
+  font-size: 18px;
+  font-weight: 300;
+  max-width: 90%;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.content .content_second .book_brain {
+  width: 230px;
+}
+.content .content_second .book_brain img {
+  width: 100%;
+  height: 100%;
+}
