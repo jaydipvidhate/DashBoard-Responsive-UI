@@ -3,6 +3,7 @@
 @import "./content_one.css";
 @import "./content_two.css";
 @import "./tablet.css";
+@import "./mobile.css";
 
 * {
   box-sizing: border-box;

@@ -32,6 +32,16 @@
   font-size: 20px;
   color: black;
 }
+
+.greeting_profile_secondary {
+  width: 55px;
+  height: 45px;
+}
+.greeting_profile_secondary img {
+  width: 100%;
+  height: 100%;
+}
+
 .content .content_second .notification .notification_detials {
   width: 18%;
   justify-content: space-around;

@@ -2,8 +2,7 @@
   flex: 1;
   margin: 0 40px;
   padding: 26px 0px;
-  overflow-x: hidden;
-  /* overflow-y: auto; */
+  overflow-y: scroll;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -41,14 +40,6 @@
 }
 .greeting_profile_main {
   width: 180px;
-}
-.greeting_profile_secondary {
-  width: 40px;
-  height: 40px;
-}
-.greeting_profile_secondary img {
-  width: 100%;
-  height: 100%;
 }
 
 .resume_card {
@@ -106,4 +97,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.content .content_first .resume_card_wrapper .change_course .left:hover,
+.right:hover {
+  border: 2px solid black;
 }
