@@ -43,7 +43,7 @@
 }
 
 .resume_card {
-  width: 80% !important;
+  margin-right: 20px;
 }
 
 .resume_card .progress {

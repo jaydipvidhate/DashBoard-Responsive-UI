@@ -128,3 +128,7 @@ h3 {
 .rating i {
   margin-right: 10px;
 }
+
+.mobile_nav {
+  display: none;
+}

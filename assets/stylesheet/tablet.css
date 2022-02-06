@@ -27,7 +27,7 @@
     flex-direction: column;
   }
   .resume_card {
-    width: 100% !important;
+    margin-right: 0;
   }
   .content .content_first .resume_card_wrapper .change_course {
     width: 80%;
