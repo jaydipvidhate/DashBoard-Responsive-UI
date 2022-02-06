@@ -1,5 +1,106 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   body {
+    padding: 0px !important;
+  }
+  nav {
     display: none;
+  }
+  .content .content_second {
+    margin-top: 10px;
+  }
+  .content .content_second .notification .search input {
+    padding: 4px 10px;
+  }
+  .content .content_second .notification .search i {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
+  .greeting_profile_secondary {
+    width: 40px;
+    height: 40px;
+  }
+  .content .content_second .course_completion .course_completion_card {
+    padding: 10px;
+  }
+  .content .content_second .course_completion .course_completion_card span,
+  p {
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  .content .content_second .chart_title ul li a {
+    font-size: 14px;
+  }
+  .content .content_second .chart_title select {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+  .content .content_second .learn_more_content h6 {
+    font-size: 20px;
+  }
+  .content .content_second .learn_more_content p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .btn {
+    padding: 6px 10px !important;
+    font-size: 12px !important;
+  }
+  .content .content_first .greeting_card {
+    padding: 20px;
+    height: auto;
+  }
+  .content .content_first .greeting_card .greeting {
+    margin-left: 10px;
+  }
+  .content .content_first .greeting_card .greeting h4 {
+    font-size: 20px;
+  }
+  .content .content_first .greeting_card .greeting p {
+    font-size: 14px;
+  }
+  .greeting_profile_main {
+    width: 100px;
+  }
+  .logo {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .course_name h6 {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+  }
+  .course_name p {
+    font-size: 12px !important;
+  }
+  .resume_card .progress {
+    width: 30px;
+    height: 30px;
+  }
+  .content .content_first .resume_card_wrapper .change_course .left,
+  .right {
+    width: 35px;
+    height: 35px;
+  }
+  .content .content_first .resume_card_wrapper .change_course .left,
+  .right i {
+    font-size: 10px;
+  }
+  .content .content_first ul {
+    width: 100%;
+  }
+  .content .content_first ul li a {
+    font-size: 14px;
+  }
+  .card {
+    padding: 14px !important;
+  }
+  .display_flex .logo {
+    margin-right: 15px !important;
+  }
+  .time,
+  .rating {
+    display: none !important;
   }
 }

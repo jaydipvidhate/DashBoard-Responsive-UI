@@ -36,6 +36,10 @@
 .greeting_profile_secondary {
   width: 55px;
   height: 45px;
+  border-radius: 50%;
+  background-color: rgb(249, 249, 249);
+  padding: 4px;
+  margin: 0 8px;
 }
 .greeting_profile_secondary img {
   width: 100%;
@@ -43,7 +47,7 @@
 }
 
 .content .content_second .notification .notification_detials {
-  width: 18%;
+  /* width: 18%; */
   justify-content: space-around;
 }
 

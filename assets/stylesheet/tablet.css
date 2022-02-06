@@ -39,6 +39,6 @@
     width: 100%;
   }
   nav {
-    display: none;
+    width: 40px;
   }
 }
